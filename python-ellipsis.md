@@ -147,7 +147,7 @@ async def something(q: str):
     return f"Your query was {q}"
 ```
 
-이 함수는 쿼리 파라미터없이 엔드포인트가 호출되는 경우 오류 메시지가 리턴됩니다. q의 기본값으로 None을 지정하면 선택적으로 사용할 수 있습니다.
+이 함수는 쿼리 파라미터 없이 엔드포인트가 호출되는 경우 오류 메시지가 리턴됩니다. q의 기본값으로 None을 지정하면 선택적으로 사용할 수 있습니다.
 
 ```python
 async def something(q: str = None):
